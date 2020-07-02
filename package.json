@@ -1,0 +1,23 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Bot stuff round 2",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aarif-razak/discord-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aarif-razak/discord-bot/issues"
+  },
+  "homepage": "https://github.com/aarif-razak/discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "discord.js-commando": "git+https://github.com/discordjs/Commando.git"
+  }
+}
