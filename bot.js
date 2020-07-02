@@ -12,7 +12,7 @@ const client = new Commando.Client({
 
 client.on("ready", () => {
     console.log("Connected!!");
-    client.user.setActivity("chewing ass and im all out of gum")
+    client.user.setActivity("Still in development!")
 });
 
 client.registry
