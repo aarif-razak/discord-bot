@@ -6,11 +6,13 @@ const path = require('path');
 
 
 const client = new Commando.Client({
-    owner: '288782447704014861'
+    owner: '288782447704014861',
+    commandPrefix: '~'
 });
 
 client.on("ready", () => {
-    console.log("PEEPEE!");
+    console.log("Connected!!");
+    client.user.setActivity("chewing ass and im all out of gum")
 });
 
 client.registry
