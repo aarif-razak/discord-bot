@@ -14,6 +14,9 @@ client.on("ready", () => {
 });
 
 client.registry
+    .registerGroups([
+        ['first', 'Testing stuff'],
+    ])
     .registerDefaults()
     .registerCommandsIn(path.join(__dirname, 'commands'));
     
